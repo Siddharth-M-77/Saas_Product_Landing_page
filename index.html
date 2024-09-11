@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>SaaS Product Landing Page</title>
+        <script src="https://cdn.tailwindcss.com"></script>
+        <style>
+    /* Custom Animation */
+    .fade-in {
+      animation: fadeIn 1.5s ease-in-out;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+      }
+      to {
+        opacity: 1;
+      }
+    }
+  </style>
+    </head>
+    <body class="bg-gradient-to-b from-blue-50 to-white">
+
+        <!-- Navbar -->
+        <header class="bg-transparent absolute top-0 w-full z-10">
+            <div
+                class="container mx-auto flex justify-between items-center py-6 px-6">
+                <h1 class="text-3xl font-extrabold text-white">SaaSify</h1>
+                <nav>
+                    <ul class="flex space-x-8 text-white font-semibold">
+                        <li><a href="#"
+                                class="hover:text-gray-300">Features</a></li>
+                        <li><a href="#"
+                                class="hover:text-gray-300">Pricing</a></li>
+                        <li><a href="#"
+                                class="hover:text-gray-300">Blog</a></li>
+                        <li><a href="#"
+                                class="hover:text-gray-300">Contact</a></li>
+                    </ul>
+                </nav>
+                <a href="#"
+                    class="px-6 py-2 bg-blue-600 text-white rounded-lg hover:bg-blue-500 transition duration-300">Get
+                    Started</a>
+            </div>
+        </header>
+
+        <!-- Hero Section -->
+        <section
+            class="min-h-screen flex items-center justify-center bg-gradient-to-r from-blue-500 to-red-500 relative overflow-hidden">
+            <!-- Background Circles for Visual Effects -->
+            <div
+                class="absolute top-10 left-10 bg-blue-300 w-56 h-56 rounded-full opacity-70 blur-2xl"></div>
+            <div
+                class="absolute bottom-10 right-10 bg-indigo-300 w-72 h-72 rounded-full opacity-40 blur-2xl">
+            </div>
+
+            <div class="container mx-auto text-center text-white fade-in">
+                <h2 class="text-5xl md:text-6xl font-bold">Revolutionize Your
+                    Workflow</h2>
+                <p class="mt-6 text-lg md:text-xl max-w-xl mx-auto">
+                    A powerful tool that transforms how your team collaborates,
+                    automates, and grows — all in one platform.
+                </p>
+                <div class="mt-8 space-x-4">
+                    <a href="#"
+                        class="px-8 py-4 bg-white text-blue-600 font-semibold rounded-lg shadow-lg hover:bg-gray-100 transition duration-300">Start
+                        Free Trial</a>
+                    <a href="#"
+                        class="px-8 py-4 bg-transparent border-2 border-white text-white rounded-lg hover:bg-white hover:text-blue-600 transition duration-300">Learn
+                        More</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- Features Section -->
+        <section class="py-16 bg-gray-100">
+            <div class="container mx-auto text-center">
+                <h3
+                    class="text-3xl md:text-4xl font-bold text-gray-800 mb-10">Why
+                    SaaSify?</h3>
+                <div class="grid grid-cols-1  md:grid-cols-3 gap-8">
+                    <!-- Feature 1 -->
+                    <div
+                        class="bg-white shadow-xl rounded-lg p-8 hover:scale-105 transition duration-300">
+                        <img
+                            src="https://tse1.mm.bing.net/th?id=OIP.UAIYaDct4CVTqiKoRmGhlQHaHa&pid=Api&P=0&h=220"
+                            alt="Automate" class="mx-auto mb-6">
+                        <h4 class="text-xl font-semibold text-gray-700">Automate
+                            Tasks</h4>
+                        <p class="text-gray-600 mt-4">Let us handle the routine
+                            tasks, so you can focus on innovation and
+                            growth.</p>
+                    </div>
+                    <!-- Feature 2 -->
+                    <div
+                        class="bg-white shadow-xl rounded-lg p-8 transform hover:scale-105 transition duration-300">
+                        <img
+                            src="https://tse4.mm.bing.net/th?id=OIP.zZ32sbFOCj-UKThJS_pE8AHaGl&pid=Api&P=0&h=220"
+                            alt="Collaborate" class="mx-auto mb-6">
+                        <h4
+                            class="text-xl font-semibold text-gray-700">Collaborate
+                            Seamlessly</h4>
+                        <p class="text-gray-600 mt-4">Empower your team to work
+                            smarter and faster with real-time collaboration
+                            tools.</p>
+                    </div>
+                    <!-- Feature 3 -->
+                    <div
+                        class="bg-white shadow-xl rounded-lg p-8 transform hover:scale-105 transition duration-300">
+                        <img
+                            src="https://www.marknative.com/wp-content/uploads/2020/07/Scale-Your-Business-Today.png?x40296"
+                            alt="Scale"
+                            class="mx-auto mb-6">
+                        <h4 class="text-xl font-semibold text-gray-700">Scale
+                            Your Business</h4>
+                        <p class="text-gray-600 mt-4">Our platform is designed
+                            to grow with your business, offering scalability and
+                            flexibility.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CTA Section -->
+        <section
+            class="py-16 bg-gradient-to-r  from-indigo-500 to-purple-600 text-white text-center">
+            <div class="container mx-auto">
+                <h3 class="text-4xl font-bold mb-6">Ready to Boost Your
+                    Productivity?</h3>
+                <p class="text-lg mb-8 max-w-2xl mx-auto">Sign up today and get
+                    a 14-day free trial. No credit card required!</p>
+                <a href="#"
+                    class="px-10 py-4 bg-white text-indigo-600 rounded-lg shadow-lg hover:bg-gray-100 font-semibold transition duration-300">Get
+                    Started Now</a>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="bg-gray-900 py-10">
+            <div class="container mx-auto text-center text-gray-400">
+                <p class="text-sm">© 2024 SaaSify. All rights reserved.</p>
+                <ul class="flex justify-center space-x-6 mt-4">
+                    <li><a href="#" class="hover:text-gray-200">Privacy
+                            Policy</a></li>
+                    <li><a href="#" class="hover:text-gray-200">Terms of
+                            Service</a></li>
+                    <li><a href="#" class="hover:text-gray-200">Support</a></li>
+                </ul>
+            </div>
+        </footer>
+
+    </body>
+</html>
